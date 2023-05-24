@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+.container {
+  background-color: #ccc;
+  position: absolute;
+  width: 800px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+
+.player_one {
+  background-color: white;
+  margin: 15px;
+  padding: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.player_two {
+  background-color: white;
+  width: 400px;
+  margin: 0px 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+video {
+  padding: 10px 0px 5px 41px;
+}
+
+audio {
+  padding: 10px 0px 5px 41px;
+  width: 331px;
+}
