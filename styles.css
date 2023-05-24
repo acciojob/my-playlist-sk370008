@@ -1,4 +1,8 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #ccc;
+}
+
 .container {
   background-color: #ccc;
   position: absolute;
