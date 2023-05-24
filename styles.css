@@ -3,11 +3,6 @@ body {
   background-color: #ccc;
 }
 
-.container {
-  background-color: #ccc;
-  position: absolute;
-  width: 800px;
-}
 h1,
 h2 {
   text-align: center;
@@ -30,7 +25,7 @@ a {
 .player_two {
   background-color: white;
   width: 400px;
-  margin: 0px 200px;
+  margin: 0px 550px;
   border: 1px solid black;
   border-radius: 5px;
 }
