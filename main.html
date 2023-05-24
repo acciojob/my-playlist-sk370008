@@ -12,30 +12,39 @@
     <div class="container">
       <h1>My Playlist</h1>
       <div class="player_one">
-        <div>
-          <a href="https://www.youtube.com/watch?v=kd-6aw99DpA">song1</a>
-        </div>
-        <div>
-          <a href="https://www.youtube.com/watch?v=9iIX4PBplAY">song2</a>
-        </div>
-        <div>
-          <a href="https://www.youtube.com/watch?v=IjBAgWKW12Y">song3</a>
-        </div>
-        <div>
-          <a href="https://www.youtube.com/watch?v=puKD3nkB1h4">song2</a>
-        </div>
-        <div>
-          <a href="https://www.youtube.com/watch?v=6MgsHSAcI9k">song5</a>
-        </div>
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=kd-6aw99DpA">song1</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=9iIX4PBplAY">song2</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=IjBAgWKW12Y">song3</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=puKD3nkB1h4">song2</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=6MgsHSAcI9k">song5</a>
+          </li>
+        </ul>
       </div>
-      <h2>Now Playing...</h2>
+      <h1>Now Playing...</h1>
       <div class="player_two">
-        <video src=" https://www.w3schools.com/tags/movie.mp4" controls></video
+        <video controls>
+          <source
+            src=" https://www.w3schools.com/tags/movie.mp4"
+            type="video/mp4"
+          /></video
         ><br />
-        <audio
-          src="https://www.pagalworld.com.se/files/download/id/64630"
-          controls
-        ></audio>
+
+        <audio controls>
+          <source
+            src="https://www.pagalworld.com.se/files/download/id/64630"
+            type="audio/mp3"
+          />
+        </audio>
       </div>
     </div>
   </body>
